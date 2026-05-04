@@ -1,0 +1,25 @@
+id	loader	minecraft_version	loader_version	status	build_task	notes
+local-1.21.1	forge	1.21.1	52.1.5	verified	compileJava	Default local profile; passed ./scripts/check_version_matrix.sh after recipe-engine changes.
+forge-1.21.1	forge	1.21.1	52.1.14	verified	compileJava	Latest Forge 1.21.1 line; passed CHECK_LATEST=1 ./scripts/check_version_matrix.sh on 2026-05-03.
+forge-1.21	forge	1.21	51.0.33	fail	compileJava	Fails: FMLJavaModLoadingContext.registerConfig API mismatch. Needs compat/forge-1.21 source branch.
+forge-1.21.3	forge	1.21.3	53.1.10	fail	compileJava	Fails: level height APIs, recipe manager/client recipe API, Ingredient API, RecipeBookMenu generics, and block solidity changed. Needs compat/forge-1.21.3 branch.
+forge-1.21.4	forge	1.21.4	54.1.16	fail	compileJava	Fails with same recipe/level API drift as 1.21.3. Needs compat/forge-1.21.4 branch.
+forge-1.21.5	forge	1.21.5	55.1.10	fail	compileJava	Fails: inventory selected/items are private, client input fields changed, movement helpers moved, recipe APIs changed. Needs compat/forge-1.21.5 branch.
+forge-1.21.6	forge	1.21.6	56.0.9	fail	compileJava	Fails: Forge eventbus imports unavailable plus Minecraft client/recipe/inventory API drift. Needs compat/forge-1.21.6 branch.
+forge-1.21.7	forge	1.21.7	57.0.3	fail	compileJava	Fails: Forge eventbus imports unavailable plus Minecraft client/recipe/inventory API drift. Needs compat/forge-1.21.7 branch.
+forge-1.21.8	forge	1.21.8	58.1.18	fail	compileJava	Fails: Forge eventbus imports unavailable plus Minecraft client/recipe/inventory API drift. Needs compat/forge-1.21.8 branch.
+forge-1.21.9	forge	1.21.9	59.0.5	fail	compileJava	Fails: Forge eventbus imports unavailable plus Minecraft client/recipe/inventory API drift. Needs compat/forge-1.21.9 branch.
+forge-1.21.10	forge	1.21.10	60.1.9	fail	compileJava	Fails: Forge eventbus imports unavailable, TickEvent phase changed, inventory/client input/recipe APIs changed. Needs compat/forge-1.21.10 branch.
+forge-1.21.11	forge	1.21.11	61.1.5	fail	compileJava	Fails: ResourceLocation/Villager package changes, Forge eventbus imports unavailable, recipe/client APIs changed. Needs compat/forge-1.21.11 branch.
+neoforge-1.21	neoforge	1.21	21.0.167	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21 branch.
+neoforge-1.21.1	neoforge	1.21.1	21.1.228	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.1 branch.
+neoforge-1.21.2	neoforge	1.21.2	21.2.1-beta	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.2 branch.
+neoforge-1.21.3	neoforge	1.21.3	21.3.96	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.3 branch.
+neoforge-1.21.4	neoforge	1.21.4	21.4.157	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.4 branch.
+neoforge-1.21.5	neoforge	1.21.5	21.5.97	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.5 branch.
+neoforge-1.21.6	neoforge	1.21.6	21.6.20-beta	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.6 branch.
+neoforge-1.21.7	neoforge	1.21.7	21.7.25-beta	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.7 branch.
+neoforge-1.21.8	neoforge	1.21.8	21.8.53	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.8 branch.
+neoforge-1.21.9	neoforge	1.21.9	21.9.16-beta	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.9 branch.
+neoforge-1.21.10	neoforge	1.21.10	21.10.64	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.10 branch.
+neoforge-1.21.11	neoforge	1.21.11	21.11.42	branch-required	compileJava	Profile recorded from NeoForge Maven; not buildable in this ForgeGradle/net.minecraftforge checkout. Create compat/neoforge-1.21.11 branch.
